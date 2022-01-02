@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAFAFA"
+    android:gravity="center"
+>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                    android:text="Edit Resto"
+                android:textColor="@color/purple_500"
+                android:textSize="28sp" />
+
+
+            <EditText
+                android:id="@+id/nom"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/edittextdesign"
+                android:hint="nom Resto"
+                android:paddingLeft="15sp"
+                android:textColor="#000000"
+                android:textColorHint="#9C9C9C" />
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/edittextdesign"
+                android:hint="location"
+                android:paddingLeft="15sp"
+                android:textColor="#000000"
+                android:textColorHint="#9C9C9C" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/services"
+                    android:layout_width="223dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edittextdesign"
+                    android:hint="Services "
+                    android:paddingLeft="15sp"
+                    android:textColor="#000000"
+                    android:textColorHint="#9C9C9C" />
+
+                <EditText
+                    android:id="@+id/rank"
+                    android:layout_width="99dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edittextdesign"
+                    android:hint="rank"
+                    android:inputType="phone"
+                    android:paddingLeft="15sp"
+                    android:textColor="#000000"
+                    android:textColorHint="#9C9C9C" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/imgLink"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittextdesign"
+                android:hint="imgLink"
+                android:paddingLeft="15sp"
+                android:textColor="#000000"
+                android:textColorHint="#9C9C9C" />
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittextdesign"
+                android:hint="description"
+                android:paddingLeft="15sp"
+                android:textColor="#000000"
+                android:textColorHint="#9C9C9C" />
+
+            <Button
+                android:id="@+id/usubmit"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttondesign"
+                android:shadowColor="#FAFAFA"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="14"
+                android:text="Edit resto"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<EditText
+        android:id="@+id/imgLink"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/edittextdesign"
+        android:hint="imgLink"
+        android:paddingLeft="15sp"
+        android:textColor="#000000"
+        android:textColorHint="#9C9C9C" /> -->
+
+
+</LinearLayout>
