@@ -67,7 +67,7 @@ public class MyAdapter extends FirebaseRecyclerAdapter<Resto,MyAdapter.myviewhol
                 final EditText location = myview.findViewById(R.id.location);
                 final EditText services = myview.findViewById(R.id.services);
                 final EditText rank = myview.findViewById(R.id.rank);
-               final EditText description = myview.findViewById(R.id.description);
+                final EditText description = myview.findViewById(R.id.description);
                 final EditText imageResto = myview.findViewById(R.id.imgLink);
                 Button submit=myview.findViewById(R.id.usubmit);
 

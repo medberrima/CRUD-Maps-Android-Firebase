@@ -18,7 +18,7 @@ public class DAOResto {
           //if(resto ==null )
           return  databaseReference.push().setValue(resto);
      }
-
+/*
      public Task<Void> update(String id, HashMap<String, Object> hashMap){
           //if(resto ==null )
           return  databaseReference.child(id).updateChildren(hashMap);
@@ -27,6 +27,6 @@ public class DAOResto {
      public Task<Void> remove(String id){
           return  databaseReference.child(id).removeValue();
      }
-
+*/
 
 }
